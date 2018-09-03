@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FastPFor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FastPFor">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/libFastPFor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 FastPFor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FastPFor/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/libFastPFor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 FastPFor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="entropy">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/entropy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 entropy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="entropy/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/entropy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 entropy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csv2maropu">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/csv2maropu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv2maropu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csv2maropu/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/csv2maropu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 csv2maropu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 unit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 unit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchbitpacking">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/benchbitpacking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchbitpacking"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchbitpacking/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/benchbitpacking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchbitpacking/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gapstats">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/gapstats" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 gapstats"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gapstats/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/gapstats" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 gapstats/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codecs">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/codecs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 codecs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codecs/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/codecs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 codecs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partitionbylength">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/partitionbylength" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 partitionbylength"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partitionbylength/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/partitionbylength" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 partitionbylength/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inmemorybenchmark">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/inmemorybenchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 inmemorybenchmark"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inmemorybenchmark/fast">
+				<Option output="/home/pabson/mgr/FastPFor/cmake-build-debug/inmemorybenchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pabson/mgr/FastPFor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pabson/mgr/FastPFor/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 inmemorybenchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pabson/mgr/FastPFor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pabson/mgr/FastPFor/example.cpp">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/benchbitpacking.cpp">
+			<Option target="benchbitpacking"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/bitpacking.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/bitpackingaligned.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/bitpackingunaligned.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/codecs.cpp">
+			<Option target="codecs"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/csv2maropu.cpp">
+			<Option target="csv2maropu"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/entropy.cpp">
+			<Option target="entropy"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/gapstats.cpp">
+			<Option target="gapstats"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/horizontalbitpacking.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/inmemorybenchmark.cpp">
+			<Option target="inmemorybenchmark"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/partitionbylength.cpp">
+			<Option target="partitionbylength"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/simdbitpacking.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/simdunalignedbitpacking.cpp">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/streamvbyte.c">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/unit.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/src/varintdecode.c">
+			<Option target="FastPFor"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/cmake_modules/AppendCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/cmake_modules/DetectCPUFeatures.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/pabson/mgr/FastPFor/cmake_modules/Findsnappy.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
